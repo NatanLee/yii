@@ -50,6 +50,10 @@ $config = [
             'rules' => [
             ],
         ],
+        'test' => [
+            'class' => \app\components\TestService::class,
+            'var' => 123456
+        ],
         
     ],
     'params' => $params,
